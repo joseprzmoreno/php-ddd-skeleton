@@ -1,0 +1,4 @@
+users_put:
+    path: /users/{name}/{email}
+    controller: CodelyTv\Apps\Mooc\Backend\Controller\Users\UsersPutController
+    methods:  [PUT]

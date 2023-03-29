@@ -25,15 +25,15 @@
 
     "doctrine/dbal": "^2.9",
     "doctrine/orm": "^2.6",
-    "ocramius/proxy-manager": "2.2.2",
 
     "elasticsearch/elasticsearch": "^7.3",
-    "monolog/monolog": "^2.0"
+    "monolog/monolog": "^2.0",
+    "wouterj/eloquent-bundle": "^2.2",
+    "ocramius/proxy-manager": "*",
+    "doctrine/cache": "^1.11"
   },
   "require-dev": {
     "ext-xdebug": "*",
-
-    "roave/security-advisories": "dev-master",
 
     "behat/behat": "^3.5",
     "behat/mink-extension": "^2.3",
@@ -43,8 +43,7 @@
     "phpunit/phpunit": "^8.2",
     "mockery/mockery": "^1.2",
 
-    "fzaninotto/faker": "^1.8",
-    "wouterj/eloquent-bundle": "^1.0"
+    "fzaninotto/faker": "^1.8"
   },
   "autoload": {
     "psr-4": {
